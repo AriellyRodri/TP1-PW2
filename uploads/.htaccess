@@ -1,0 +1,8 @@
+# Impedir execução de PHP na pasta uploads (segurança)
+php_flag engine off
+Options -Indexes
+
+<FilesMatch "\.(php|php3|php4|php5|phtml|pl|py|jsp|asp|sh|cgi)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
