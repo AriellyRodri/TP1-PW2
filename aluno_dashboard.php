@@ -32,7 +32,6 @@ if ($ficha) {
 renderHeader('Dashboard Aluno', 3, $_SESSION['nome_display']);
 ?>
 
-<!-- CSS no HEAD (ou coloca isto dentro do layout.php no <head>) -->
 <style>
   .dashboard-grid {
     display: grid;
